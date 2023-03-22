@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="student.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- <!DOCTYPE mobile [
+    <!ELEMENT mobile (iphone+)>
+    <!ELEMENT iphone (name, price,color,spec, charger*)>
+    <!ELEMENT spec (ram,rom)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT ram (#PCDATA)>
+    <!ELEMENT rom (#PCDATA)>
+    <!ELEMENT charger (#PCDATA)>
+    <!ATTLIST iphone model CDATA '6s'>
+    <!ENTITY ptaa "PTA Approved">
+    <!ENTITY ptan "PTA Not Approved">
+    <!ENTITY CN "Connector">
+    <!ENTITY PB "Power bank">
+]> -->
+<!-- + = 1 or more
+* = 0 or more  -->
+<mobile>
+    <iphone model="6s">
+        <name> iPhone 4</name>
+        <price>67</price>
+        <color>Gray</color>
+        <spec>
+            <ram>2Gb</ram>
+            <rom>16Gb</rom>
+        </spec>
+        <charger>Supported</charger>
+        <img>image.jpg</img>
+        <date>2033-04-23</date>
+    </iphone>
+    <iphone model="4s">
+        <name> iPhone 4</name>
+        <price>67</price>
+        <color>Gray</color>
+        <spec>
+            <ram>2Gb</ram>
+            <rom>16Gb</rom>
+        </spec>
+        <charger>Supported</charger>
+        <img>image.jpg</img>
+        <date>2033-04-23</date>
+    </iphone>
+   
+</mobile>

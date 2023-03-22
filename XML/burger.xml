@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="burger.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="burger.xsl" type="text/xsl"?>
+
+<product>
+    <food category="Fast Food">
+        <name>Burger</name>
+        <price>450</price>
+        <ratings>4.8</ratings>
+        <image>https://assets.indolj.io/images/1676291003-web-images-03%20(2).webp</image>
+    </food>
+    <food category="Desi">
+        <name>Biryani</name>
+        <price>250</price>
+        <ratings>4.5</ratings>
+        <image>https://assets.indolj.io/images/1676291003-web-images-03%20(2).webp</image>
+    </food>
+    <food category="Chinese">
+        <name>Chowmein</name>
+        <price>550</price>
+        <ratings>4.9</ratings>
+        <image>https://assets.indolj.io/images/1676291003-web-images-03%20(2).webp</image>
+    </food>
+</product>
